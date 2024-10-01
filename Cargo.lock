@@ -3750,7 +3750,7 @@ dependencies = [
  "httpdate",
  "itoa",
  "pin-project-lite",
- "socket2 0.5.7",
+ "socket2 0.4.10",
  "tokio",
  "tower-service",
  "tracing",
@@ -7247,9 +7247,9 @@ dependencies = [
 
 [[package]]
 name = "spider"
-version = "2.6.5"
+version = "2.6.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a749939f23837b354045105dab66b634f9b4a3f62369c682d4f19e9b4b19c327"
+checksum = "cc2e83a33321ce6fe45ceca623368cce2e2cb1d6640a3fc66340ab04fc752573"
 dependencies = [
  "ahash",
  "auto_encoder",
