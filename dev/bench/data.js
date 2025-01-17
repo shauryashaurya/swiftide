@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727631014297,
-  "repoUrl": "https://github.com/bosun-ai/swiftide",
+  "lastUpdate": 1737109952074,
+  "repoUrl": "https://github.com/shauryashaurya/swiftide",
   "entries": {
     "Rust Benchmark": [
       {
@@ -5921,6 +5921,60 @@ window.BENCHMARK_DATA = {
             "name": "run_local_pipeline",
             "value": 176,
             "range": "± 3",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@timonv.nl",
+            "name": "Timon Vonk",
+            "username": "timonv"
+          },
+          "committer": {
+            "email": "mail@timonv.nl",
+            "name": "Timon Vonk",
+            "username": "timonv"
+          },
+          "distinct": true,
+          "id": "e6655c7e5d3a8f5efebc8f30113fc0361ef5f572",
+          "message": "fix(ci): Remove versions from dev-dependencies so publish works",
+          "timestamp": "2025-01-16T17:41:28+01:00",
+          "tree_id": "e05b3fa9a9c9794e03f3e82057cf057ed09a359f",
+          "url": "https://github.com/shauryashaurya/swiftide/commit/e6655c7e5d3a8f5efebc8f30113fc0361ef5f572"
+        },
+        "date": 1737109951650,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "load_1",
+            "value": 7,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load_10",
+            "value": 7,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "run_local_pipeline",
+            "value": 177,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "node_cache/redis",
+            "value": 1263871,
+            "range": "± 923386",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "node_cache/redb",
+            "value": 238523,
+            "range": "± 1551",
             "unit": "ns/iter"
           }
         ]
